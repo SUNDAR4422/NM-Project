@@ -1,0 +1,209 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 25% 12%;
+    --foreground: 210 40% 98%;
+
+    --card: 230 25% 18%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 230 25% 14%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 260 84% 70%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 36 67% 70%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 230 25% 25%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 36 67% 70%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 230 25% 26%;
+    --input: 230 25% 22%;
+    --ring: 260 84% 70%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cinema-dark text-foreground;
+    background-image: 
+      linear-gradient(to bottom, 
+        rgba(26, 31, 44, 0.85), 
+        rgba(15, 18, 24, 0.9)),
+      url("public/lovable-uploads/2a036322-2297-4b1d-afff-427c5bfa38c9.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  /* Improved glass effect */
+  .glass-effect {
+    @apply backdrop-blur-xl bg-black/30 border border-white/10;
+    box-shadow: 
+      0 4px 30px rgba(0, 0, 0, 0.1),
+      inset 0 0 30px rgba(255, 255, 255, 0.05);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-opacity-20 backdrop-blur-md bg-black border border-white/10;
+    box-shadow: 
+      0 4px 20px rgba(0, 0, 0, 0.3),
+      inset 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .cinema-card {
+    @apply relative overflow-hidden rounded-lg transition-all duration-300;
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 31, 44, 0.7),
+      rgba(15, 18, 24, 0.8)
+    );
+    box-shadow: 
+      0 4px 30px rgba(0, 0, 0, 0.2),
+      inset 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .cinema-card:hover {
+    @apply border-cinema-accent/30 shadow-lg shadow-cinema-purple/20 scale-[1.02];
+    box-shadow: 
+      0 8px 40px rgba(139, 92, 246, 0.2),
+      inset 0 0 30px rgba(139, 92, 246, 0.1);
+  }
+  
+  .button-glow {
+    @apply relative inline-flex items-center justify-center overflow-hidden rounded-md bg-cinema-purple px-8 py-3 font-medium text-white transition-all duration-300;
+    box-shadow: 
+      0 0 15px rgba(139, 92, 246, 0.5),
+      inset 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .button-glow:hover {
+    box-shadow: 
+      0 0 30px rgba(139, 92, 246, 0.8),
+      inset 0 0 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cinema-accent to-cinema-purple font-bold;
+    text-shadow: 0 2px 10px rgba(139, 92, 246, 0.3);
+  }
+
+  /* New cinematic effects */
+  .movie-card-hover {
+    @apply transition-all duration-500;
+  }
+  
+  .movie-card-hover:hover {
+    transform: perspective(1000px) rotateY(10deg) translateZ(20px);
+    box-shadow: -20px 0 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .floating-effect {
+    animation: floating 6s ease-in-out infinite;
+  }
+
+  @keyframes floating {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+  }
+
+  .neon-border {
+    @apply relative;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+  }
+
+  .neon-border::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(
+      45deg, 
+      rgba(139, 92, 246, 0.5), 
+      rgba(230, 185, 128, 0.5)
+    );
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  
+  /* New cinematic background effects */
+  .cinema-background {
+    position: relative;
+  }
+  
+  .cinema-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(15, 18, 24, 0.8), transparent);
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .cinema-background::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background: linear-gradient(to top, rgba(15, 18, 24, 0.9), transparent);
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .film-grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: 100;
+  }
+  
+  .spotlight {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle at 50% 30%,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 60%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
