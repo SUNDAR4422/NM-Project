@@ -1,6 +1,8 @@
-import { Movie, UserPreferences } from "../types/movie";
-import { toast } from "@/components/ui/use-toast";
+// src/data/mockData.ts
+import { Movie, UserPreferences } from "../types/movie"; // Assuming these types are correct
+import { toast } from "@/components/ui/use-toast";    // Assuming use-toast is from your components
 
+// Your existing mock data (moods, watchingWith, etc.) should remain here
 export const moods = [
   { value: "happy", label: "Happy", icon: "🥳" },
   { value: "sad", label: "Sad", icon: "😢" },
@@ -32,15 +34,14 @@ export const genres = [
 ];
 
 export const languages = [
-  "English", "Tamil", "French", "German", "Italian", 
-  "Japanese", "Korean", "Chinese", "Hindi", "Russian"
+  "English", "Tamil", "Hindi"
 ];
 
 export const durationOptions = [
   { value: 90, label: "< 90 min" },
   { value: 120, label: "< 2 hours" },
   { value: 150, label: "< 2.5 hours" },
-  { value: 999, label: "Any length" },
+  { value: 999, label: "Any length" }, // 999 for any length as used in backend
 ];
 
 export const preferencesOptions = [
@@ -49,13 +50,18 @@ export const preferencesOptions = [
   { value: "hidden_gems", label: "Hidden Gems", icon: "💎" },
 ];
 
-// Use environment variable for API base URL (optional for development)
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+// Use environment variable for API base URL
+// VITE_API_BASE_URL should be set in your frontend's .env.local file
+// e.g., VITE_API_BASE_URL=http://127.0.0.1:8000/api
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api'; // Default for same-origin deployment
 
 export const getMovieRecommendations = async (preferences: UserPreferences): Promise<Movie[]> => {
   try {
-    console.log('Sending preferences:', preferences);
-    const response = await fetch(`${API_BASE_URL}/recommendations`, {
+    console.log('Sending preferences to backend:', preferences);
+    const fullApiUrl = `${API_BASE_URL}/recommendations`;
+    console.log('Requesting URL:', fullApiUrl);
+
+    const response = await fetch(fullApiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -65,19 +71,38 @@ export const getMovieRecommendations = async (preferences: UserPreferences): Pro
 
     if (!response.ok) {
       const errorText = await response.text();
+      console.error(`Error response from backend: ${response.status}`, errorText);
       throw new Error(`Failed to fetch recommendations: ${response.status} ${errorText}`);
     }
 
-    const movies = await response.json();
-    console.log('Received movies:', movies);
-    return movies;
+    // The backend returns an object like { "movies": [...] }
+    // We need to extract the 'movies' array.
+    const responseData = await response.json(); 
+    console.log('Received data from backend:', responseData);
+
+    if (responseData && Array.isArray(responseData.movies)) {
+      return responseData.movies as Movie[]; // Cast to Movie[] for type safety
+    } else {
+      console.error("Backend response did not contain a 'movies' array:", responseData);
+      toast({ // Use your toast component for user feedback
+        title: "Response Error",
+        description: "Received an unexpected format from the server.",
+        variant: "destructive",
+      });
+      return []; // Return an empty array or throw an error, depending on desired behavior
+    }
+
   } catch (error) {
     console.error('Error fetching recommendations:', error);
+    let errorMessage = "Failed to load movie recommendations. Please try again.";
+    if (error instanceof Error) {
+        errorMessage = error.message;
+    }
     toast({
-      title: "Error",
-      description: "Failed to load movie recommendations. Please try again.",
+      title: "Network Error",
+      description: errorMessage,
       variant: "destructive",
     });
-    return [];
+    return []; // Return empty array on error
   }
 };

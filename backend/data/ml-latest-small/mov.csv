@@ -1,0 +1,301 @@
+movieId,title,genres
+1,Muthu (1995),Action|Drama|Musical
+2,Baasha (1995),Action|Crime|Drama
+3,Indian (1996),Action|Drama|Thriller
+4,Kadhal Kottai (1996),Drama|Romance
+5,Arunachalam (1997),Action|Comedy|Drama
+6,Jeans (1998),Comedy|Drama|Romance
+7,Padayappa (1999),Action|Drama
+8,Mudhalvan (1999),Action|Drama|Thriller
+9,Kandukondain Kandukondain (2000),Drama|Romance
+10,Alaipayuthey (2000),Drama|Romance
+11,Virumbugiren (2001),Drama|Romance
+12,Poovellam Un Vasam (2001),Drama|Romance
+13,Villain (2002),Action|Drama|Thriller
+14,Kannathil Muthamittal (2002),Drama|War
+15,Anbe Sivam (2003),Adventure|Comedy|Drama
+16,Kaakha Kaakha (2003),Action|Crime|Drama
+17,Ghilli (2004),Action|Comedy|Romance
+18,7G Rainbow Colony (2004),Drama|Romance
+19,Chandramukhi (2005),Comedy|Horror|Musical
+20,Anniyan (2005),Action|Drama|Thriller
+21,Veyil (2006),Drama
+22,Paruthiveeran (2007),Action|Drama|Romance
+23,Billa (2007),Action|Crime|Thriller
+24,Subramaniapuram (2008),Action|Crime|Drama
+25,Dasavathaaram (2008),Action|Sci-Fi|Thriller
+26,Ayan (2009),Action|Crime|Thriller
+27,Naadodigal (2009),Action|Drama
+28,Vinnai Thaandi Varuvaaya (2010),Drama|Romance
+29,Enthiran (2010),Action|Sci-Fi|Thriller
+30,Ko (2011),Action|Thriller
+31,Mayakkam Enna (2011),Drama|Romance
+32,3 (2012),Drama|Romance|Thriller
+33,Thuppakki (2012),Action|Thriller
+34,Raja Rani (2013),Comedy|Drama|Romance
+35,Theeya Velai Seiyyanum Kumaru (2013),Comedy|Romance
+36,Vikram Vedha (2017),Action|Crime|Thriller
+37,Vada Chennai (2018),Action|Crime|Drama
+38,96 (2018),Drama|Romance
+39,Pariyerum Perumal (2018),Crime|Drama
+40,Super Deluxe (2019),Comedy|Crime|Drama
+41,Asuran (2019),Action|Drama
+42,Kaithi (2019),Action|Thriller
+43,Petta (2019),Action|Drama
+44,Bigil (2019),Action|Drama|Sports
+45,Master (2021),Action|Thriller
+46,Soorarai Pottru (2020),Drama
+47,Karnan (2021),Action|Drama
+48,Jai Bhim (2021),Crime|Drama
+49,Doctor (2021),Action|Comedy
+50,Love Today (2022),Comedy|Romance
+51,Vikram (2022),Action|Thriller
+52,Ponniyin Selvan: I (2022),Action|Adventure|Drama
+53,Thiruchitrambalam (2022),Comedy|Drama|Romance
+54,Varisu (2023),Action|Drama
+55,Pathu Thala (2023),Action|Crime|Drama
+56,Mark Antony (2023),Action|Comedy|Sci-Fi
+57,Leo (2023),Action|Thriller
+58,Ayothi (2023),Drama
+59,Good Night (2023),Comedy|Drama
+60,Maaveeran (2023),Action|Drama|Fantasy
+61,Chitha (2023),Drama
+62,Por Thozhil (2023),Crime|Thriller
+63,Jigarthanda DoubleX (2023),Action|Crime|Drama
+64,Japan (2023),Action|Crime|Drama
+65,Captain Miller (2024),Action|Adventure|Drama
+66,Annapoorani (2023),Drama
+67,Ayalan (2024),Action|Adventure
+68,Lal Salaam (2024),Action|Drama
+69,Blue Star (2024),Drama|Sports
+70,Aranmanai 4 (2024),Comedy|Horror
+71,Gentleman (1993),Action|Drama
+72,Walter Vetrivel (1993),Action|Comedy
+73,Suriyan (1992),Action|Drama
+74,Thevar Magan (1992),Drama
+75,Chinna Thambi (1991),Drama|Romance
+76,Thalapathi (1991),Action|Drama
+77,Michael Madana Kama Rajan (1990),Comedy
+78,Apoorva Sagodharargal (1989),Action|Comedy
+79,Vetri Vizha (1989),Action|Thriller
+80,Dharmathin Thalaivan (1988),Drama
+81,Agni Natchathiram (1988),Action|Drama
+82,Nayakan (1987),Crime|Drama
+83,Velai Kidaichuduchu (1987),Comedy|Romance
+84,Mouna Ragam (1986),Drama|Romance
+85,Punnagai Mannan (1986),Comedy|Drama|Romance
+86,Padikkadavan (1985),Action|Drama
+87,Andha Oru Nimidam (1985),Drama
+88,Poove Poochooda Vaa (1985),Drama|Romance
+89,Enakkul Oruvan (1984),Drama|Fantasy
+90,Anbulla Rajinikanth (1984),Drama
+91,Thanga Magan (1983),Drama
+92,Moondram Pirai (1982),Drama|Romance
+93,Payanangal Mudivathillai (1982),Drama|Romance
+94,Tik Tik Tik (1981),Action|Adventure
+95,Raja Parvai (1981),Drama
+96,Kali (1980),Action|Drama
+97,Varumayin Niram Sivappu (1980),Drama
+98,Johnny (1980),Action|Drama
+99,Ninaithale Inikkum (1979),Drama|Musical|Romance
+100,Annai Oru Aalayam (1979),Drama
+101,Aval Appadithan (1978),Drama
+102,Thyagam (1978),Drama
+103,16 Vayathinile (1977),Drama
+104,Avargal (1977),Drama
+105,Oru Oodhappu Kan Simittugiradhu (1976),Drama
+106,Anthuleni Katha (1976),Drama
+107,Apoorva Raagangal (1975),Drama
+108,Thanga Pathakkam (1974),Action|Drama
+109,Bharatha Vilas (1973),Drama
+110,Pattikada Pattanama (1972),Drama
+111,Annai Velankanni (1971),Drama
+112,Enga Mama (1970),Drama
+113,Adimai Penn (1969),Drama
+114,Thillana Mohanambal (1968),Drama|Musical
+115,Galatta Kalyanam (1968),Comedy
+116,Thiruvilayadal (1965),Fantasy
+117,Padagotti (1964),Drama
+118,Paarthal Pasi Theerum (1962),Drama
+119,Pasamalar (1961),Drama
+120,Kappalottiya Thamizhan (1961),Drama
+121,Veerapandiya Kattabomman (1959),Action|Drama
+122,Madurai Veeran (1956),Action|Drama
+123,Alibabavum 40 Thirudargalum (1956),Adventure|Fantasy
+124,Andha Naal (1954),Crime|Drama|Thriller
+125,Parasakthi (1952),Drama
+126,Velaikari (1949),Drama
+127,Chandralekha (1948),Action|Drama|Musical
+128,Haridas (1944),Drama
+129,Thyagabhoomi (1939),Drama
+130,Balayogini (1936),Drama
+131,Kalidas (1931),Drama
+132,Marthanda Varma (1931),Action|Drama
+133,Viswanathan (1948),Drama
+134,Manthiri Kumari (1950),Drama
+135,Missiamma (1955),Comedy|Drama
+136,Enga Veettu Pillai (1965),Drama
+137,Karnan (1964),Action|Drama
+138,Server Sundaram (1964),Comedy|Drama
+139,Vennira Aadai (1965),Drama
+140,Anbe Vaa (1966),Comedy|Romance
+141,Kadhalikka Neramillai (1964),Comedy|Romance
+142,Kavalkaran (1967),Action|Drama
+143,Thillu Mullu (1981),Comedy
+144,Panakkaran (1990),Action|Drama
+145,Singaravelan (1992),Comedy|Romance
+146,Sathriyan (1994),Action|Drama
+147,Nattamai (1994),Action|Drama
+148,Coimbatore Mappillai (1996),Comedy|Romance
+149,Love Birds (1996),Comedy|Romance
+150,Priyamudan (1998),Action|Romance
+151,Unnidathil Ennai Koduthen (1998),Drama|Romance
+152,Ninaithen Vandhai (1998),Drama|Romance
+153,Kadhalar Dhinam (1999),Drama|Romance
+154,Sangamam (1999),Drama|Musical
+155,Kandukondain Kandukondain (2000),Drama|Romance
+156,Rhythm (2000),Drama|Romance
+157,12B (2001),Comedy|Romance|Sci-Fi
+158,Paarthale Paravasam (2001),Drama|Romance
+159,Shahjahan (2001),Drama|Romance
+160,Punnagai Desam (2001),Drama|Romance
+161,Minnale (2001),Comedy|Romance
+162,Dumm Dumm Dumm (2001),Comedy|Romance
+163,Poovellam Un Vasam (2001),Drama|Romance
+164,Alli Arjuna (2001),Action|Drama
+165,Baba (2002),Action|Drama
+166,April Madhathil (2002),Drama|Romance
+167,Youth (2002),Drama
+168,Five Star (2002),Drama
+169,Run (2002),Action|Thriller
+170,Samurai (2002),Action|Thriller
+171,King (2002),Action|Drama
+172,Villain (2002),Action|Drama|Thriller
+173,Thamizh (2002),Action|Drama
+174,Junior Senior (2002),Comedy
+175,Unnai Ninaithu (2002),Drama|Romance
+176,April Maadhathil (2002),Drama|Romance
+177,Pammal K. Sambandam (2002),Comedy
+178,Punnagai Poove (2002),Drama|Romance
+179,Red (2002),Action|Thriller
+180,Roja Kootam (2002),Action|Drama
+181,Thotti Jaya (2002),Action|Drama
+182,Yaathra (2002),Drama
+183,En Mana Vaanil (2002),Drama|Romance
+184,Charlie Chaplin (2002),Comedy
+185,Gemini (2002),Action|Comedy
+186,Thamizhan (2002),Action|Drama
+187,Mounam Pesiyadhe (2002),Drama|Romance
+188,Ramana (2002),Action|Drama
+189,Bala (2002),Action|Comedy
+190,Bagavathi (2002),Action|Drama
+191,Maaran (2002),Action|Drama
+192,King (2002),Action|Drama
+193,Thamizh (2002),Action|Drama
+194,April Maadhathil (2002),Drama|Romance
+195,Unnai Ninaithu (2002),Drama|Romance
+196,Red (2002),Action|Thriller
+197,Samurai (2002),Action|Thriller
+198,Run (2002),Action|Thriller
+199,Youth (2002),Drama
+200,Five Star (2002),Drama
+201,Punnagai Poove (2002),Drama|Romance
+202,Pammal K. Sambandam (2002),Comedy
+203,Charlie Chaplin (2002),Comedy
+204,Gemini (2002),Action|Comedy
+205,Thamizhan (2002),Action|Drama
+206,Mounam Pesiyadhe (2002),Drama|Romance
+207,Ramana (2002),Action|Drama
+208,Bala (2002),Action|Comedy
+209,Bagavathi (2002),Action|Drama
+210,Maaran (2002),Action|Drama
+211,King (2002),Action|Drama
+212,Thamizh (2002),Action|Drama
+213,April Maadhathil (2002),Drama|Romance
+214,Unnai Ninaithu (2002),Drama|Romance
+215,Red (2002),Action|Thriller
+216,Samurai (2002),Action|Thriller
+217,Run (2002),Action|Thriller
+218,Youth (2002),Drama
+219,Five Star (2002),Drama
+220,Punnagai Poove (2002),Drama|Romance
+221,Pammal K. Sambandam (2002),Comedy
+222,Charlie Chaplin (2002),Comedy
+223,Gemini (2002),Action|Comedy
+224,Thamizhan (2002),Action|Drama
+225,Mounam Pesiyadhe (2002),Drama|Romance
+226,Ramana (2002),Action|Drama
+227,Bala (2002),Action|Comedy
+228,Bagavathi (2002),Action|Drama
+229,Maaran (2002),Action|Drama
+230,King (2002),Action|Drama
+231,Thamizh (2002),Action|Drama
+232,April Maadhathil (2002),Drama|Romance
+233,Unnai Ninaithu (2002),Drama|Romance
+234,Red (2002),Action|Thriller
+235,Samurai (2002),Action|Thriller
+236,Run (2002),Action|Thriller
+237,Youth (2002),Drama
+238,Five Star (2002),Drama
+239,Punnagai Poove (2002),Drama|Romance
+240,Pammal K. Sambandam (2002),Comedy
+241,Charlie Chaplin (2002),Comedy
+242,Gemini (2002),Action|Comedy
+243,Thamizhan (2002),Action|Drama
+244,Mounam Pesiyadhe (2002),Drama|Romance
+245,Ramana (2002),Action|Drama
+246,Bala (2002),Action|Comedy
+247,Bagavathi (2002),Action|Drama
+248,Maaran (2002),Action|Drama
+249,King (2002),Action|Drama
+250,Thamizh (2002),Action|Drama
+251,April Maadhathil (2002),Drama|Romance
+252,Unnai Ninaithu (2002),Drama|Romance
+253,Red (2002),Action|Thriller
+254,Samurai (2002),Action|Thriller
+255,Run (2002),Action|Thriller
+256,Youth (2002),Drama
+257,Five Star (2002),Drama
+258,Punnagai Poove (2002),Drama|Romance
+259,Pammal K. Sambandam (2002),Comedy
+260,Charlie Chaplin (2002),Comedy
+261,Gemini (2002),Action|Comedy
+262,Thamizhan (2002),Action|Drama
+263,Mounam Pesiyadhe (2002),Drama|Romance
+264,Ramana (2002),Action|Drama
+265,Bala (2002),Action|Comedy
+266,Bagavathi (2002),Action|Drama
+267,Maaran (2002),Action|Drama
+268,King (2002),Action|Drama
+269,Thamizh (2002),Action|Drama
+270,April Maadhathil (2002),Drama|Romance
+271,Unnai Ninaithu (2002),Drama|Romance
+272,Red (2002),Action|Thriller
+273,Samurai (2002),Action|Thriller
+274,Run (2002),Action|Thriller
+275,Youth (2002),Drama
+276,Five Star (2002),Drama
+277,Punnagai Poove (2002),Drama|Romance
+278,Pammal K. Sambandam (2002),Comedy
+279,Charlie Chaplin (2002),Comedy
+280,Gemini (2002),Action|Comedy
+281,Thamizhan (2002),Action|Drama
+282,Mounam Pesiyadhe (2002),Drama|Romance
+283,Ramana (2002),Action|Drama
+284,Bala (2002),Action|Comedy
+285,Bagavathi (2002),Action|Drama
+286,Maaran (2002),Action|Drama
+287,King (2002),Action|Drama
+288,Thamizh (2002),Action|Drama
+289,April Maadhathil (2002),Drama|Romance
+290,Unnai Ninaithu (2002),Drama|Romance
+291,Red (2002),Action|Thriller
+292,Samurai (2002),Action|Thriller
+293,Run (2002),Action|Thriller
+294,Youth (2002),Drama
+295,Five Star (2002),Drama
+296,Punnagai Poove (2002),Drama|Romance
+297,Pammal K. Sambandam (2002),Comedy
+298,Charlie Chaplin (2002),Comedy
+299,Gemini (2002),Action|Comedy
+300,Thamizhan (2002),Action|Drama
