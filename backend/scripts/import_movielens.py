@@ -10,7 +10,7 @@ from typing import Optional, List, Tuple # <-- Import Optional here
 
 # --- Configuration ---
 MONGODB_CONNECTION_STRING = "mongodb://localhost:27017"  # !!! REPLACE WITH YOURS !!!
-DATABASE_NAME = "movie_db"
+DATABASE_NAME = "movie_d"
 # Path to the MovieLens movies.csv file (inside data/ml-latest-small/)
 CSV_FILE_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'ml-latest-small', 'mov.csv')
 

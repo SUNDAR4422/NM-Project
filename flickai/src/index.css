@@ -39,7 +39,7 @@
       linear-gradient(to bottom,
         rgba(26, 31, 44, 0.85),
         rgba(15, 18, 24, 0.9)),
-      url("/lovable-uploads/2a036322-2297-4b1d-afff-427c5bfa38c9.png"); /* Adjusted path assuming image is in public root */
+      url("/background.png"); /* Adjusted path assuming image is in public root */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
